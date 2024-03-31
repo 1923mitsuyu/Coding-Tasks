@@ -1,5 +1,6 @@
 # Point: Sort the array and compare the first and the last value in the array
-# Point: With min() function, the smaller value is chosen
+# Point: With min() function, the smaller value, which is set as the length of the loop, is chosen
+
 class Solution:
     def longestCommonPrefix(strs):
 
@@ -12,4 +13,3 @@ class Solution:
 
         return output 
 
-print(Solution.longestCommonPrefix(["flower","flow","flight"]))
